@@ -29,7 +29,7 @@ public class ModeActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_mode);
 
-        // 1. Initialize Views
+        // Initialize Views
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.viewPager);
 
@@ -53,7 +53,7 @@ public class ModeActivity extends AppCompatActivity {
             );
         });
 
-        // 2. Setup Toolbar
+        //  Setup Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
@@ -63,12 +63,12 @@ public class ModeActivity extends AppCompatActivity {
                     .setDisplayHomeAsUpEnabled(true);
         }
 
-        // 3. Create Adapter
+        //  Create Adapter
         ViewPager adapter = new ViewPager(this);
 
         viewPager.setAdapter(adapter);
 
-        // 4. Connect TabLayout with ViewPager2
+        //  Connect TabLayout with ViewPager2
         new TabLayoutMediator(
                 tabLayout,
                 viewPager,
