@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MidtermExam_Israa_Abuelaish</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_mode">Mode\n</string>
+    <string name="exit_message">Press back again to exit</string>
+
+    <string-array name="tab_names">
+        <item>First Tab</item>
+        <item>Second Tab</item>
+        <item>Third Tab</item>
+    </string-array>
+</resources>
